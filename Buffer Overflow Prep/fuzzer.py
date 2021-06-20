@@ -1,3 +1,4 @@
+#fuzzer.py <host> <port>
 import socket,sys,time
 ip=sys.argv[1]
 port=int(sys.argv[2])
