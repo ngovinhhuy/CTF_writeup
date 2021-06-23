@@ -24,8 +24,6 @@ def fuzzer():
 		string += 100 * "A"
 		time.sleep(1)
 	return len(string)
-crash=fuzzer()
-a=input('Press to continue')
 def find_offset():
 	global prefix
 	global ip
@@ -46,11 +44,6 @@ def find_offset():
 		print("Done!")
 	except:
 		print("Could not connect.")
-find_offset()
-print('Did u find offset')
-offset=int(input('Offset='))
-print('Now find bad char')
-s=socket.socket()
 def find_badchar():
 	global prefix
 	global ip
@@ -73,4 +66,12 @@ def find_badchar():
 	except:
 
 		print("Could not connect.")
+crash=fuzzer()
+a=input('Press to continue')
+find_offset()
+print('Did u find offset')
+offset=int(input('Offset='))
+print('Now find bad char')
+s=socket.socket()
 find_badchar()
+
