@@ -1,0 +1,198 @@
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~)
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~#
+vm@ubuntu: ~)
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~)
+Kvm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+SHA256:cInfpL/TEve9M/xNr0X7eRw7QD4aBaCDbhtRX5/sC0E vm@ubuntu
+vm@ubuntu:~$ rm  ~/.ssh/id_rsa.pub
+vm@ubuntu:~$ nano  ~/.ssh/id_rsa
+vm@ubuntu:~$ ssh trung149@188.166.233.168 -p 18888
+vm@ubuntu:~$ rm  ~/.ssh/id_rsa.pub
+vm@ubuntu:~$ nano  ~/.ssh/id_rsa
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+SHA256:cInfpL/TEve9M/xNr0X7eRw7QD4aBaCDbhtRX5/sC0E vm@ubuntu
+vm@ubuntu:~$ rm  ~/.ssh/id_rsa.pub
+vm@ubuntu:~$ nano  ~/.ssh/id_rsa
+vm@ubuntu:~$ ssh trung149@188.166.233.168 -p 18888
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~\
+Kvm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+]0;vm@ubuntu: ~
+vm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+vm@ubuntu:~$ cat ~/.ssh/id_rsa
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu:~/Desktop/fmem$ ./run.sh 
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu:~$ uname -a
+vm@ubuntu:~$ 
+vm@ubuntu:~$ uname -a
+vm@ubuntu:~$ 
+vm@ubuntu:~/Desktop/fmem$ sudo dd if=/dev/fmem bs=512 count=20
+vm@ubuntu: ~
+[Kvm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+vm@ubuntu
+]0;vm@ubuntu: ~
+vm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~
+0000000000000000000000000000000000000000 0f687a6e250c85b26cfc6b29c2ba701b3bbc0d06 vm <vm@ubuntu.(none)> 1630666447 -0700	clone: from https://github.com/NateBrune/fmem.git
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu: ~
+vm@ubuntu: ~
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+vm@ubuntu
+vm@ubuntu: ~
+vm@ubuntu:~$ cd Desktop/
+vm@ubuntu:~/Desktop$ sudo apt install git make gcc
+vm@ubuntu:~/Desktop$ git clone https://github.com/NateBrune/fmem.git
+vm@ubuntu:~/Desktop$ cd fmem
+vm@ubuntu:~/Desktop/fmem$ ls
+vm@ubuntu:~/Desktop/fmem$ sudo make
+vm@ubuntu:~/Desktop/fmem$ ./run.sh 
+vm@ubuntu:~/Desktop/fmem$ suod ./run.sh 
+vm@ubuntu:~/Desktop/fmem$ sudo ./run.sh 
+vm@ubuntu:~/Desktop/fmem$ sudo dd if=/dev/fmem bs=512 count=2097152 | nc 192.168.50.175 4444
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu: ~
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+vm@ubuntu:~/Desktop/fmem$ ./run.sh 
+vm@ubuntu:~/Desktop/fmem$ suod ./run.sh 
+vm@ubuntu:~/Desktop/fmem$ sudo ./run.sh 
+vm@ubuntu:~/Desktop/fmem$ sudo dd if=/dev/fmem bs=512 count=2097152 | nc 192.168.50.175 4444
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+vm@ubuntu: ~/Desktop/fmem
+vm@ubuntu: ~
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~/Desktop/fmem
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+]0;vm@ubuntu: ~
+[01;32mvm@ubuntu
+0000000000000000000000000000000000000000 0f687a6e250c85b26cfc6b29c2ba701b3bbc0d06 vm <vm@ubuntu.(none)> 1630666447 -0700	clone: from https://github.com/NateBrune/fmem.git
+vm@ubuntu: ~/Desktop/fmem
