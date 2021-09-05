@@ -18,7 +18,7 @@ Tìm từ những dòng liên quan đến shh:
 
 Ta thấy có 2 dòng quan trọng sau:
 
-**[00m$ cat ~/.ssh/id_rsa**: lệnh cat file key ssh, chứng tỏ key rsa có thể được lưu trong file mem.mem này
+**[00m$ cat ~/.ssh/id_rsa**: lệnh cat file key ssh, chứng tỏ nội dung key ssh có thể được lưu trong file mem.mem này
 
 **ssh trung149@188.166.233.168 -p 18888**: ta có được cả user, host, và port để truy cập
 
