@@ -1,5 +1,8 @@
 # Junior Hacking Talents Writeup
 ## Quay ngược thời gian
+
+![alt](https://github.com/ngovinhhuy/CTF_writeup/raw/main/Junior%20Hacking%20TalentsJ/Forensics/Quaynguocthoigian/Screenshot_2021-09-06%20Junior%20Hacking%20Talents%20B%E1%BA%A3ng%20THPT.png)
+
 Memory dump: [mem.mem](https://drive.google.com/file/d/1G2Ndl58ypp_Uz8Zq1nBXVkh3qyDEcHIo/view?usp=sharing)
 
 Mục tiêu: Xác định user, host, key_rsa/passowrd để truy cập ssh.
