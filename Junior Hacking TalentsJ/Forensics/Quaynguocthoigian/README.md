@@ -13,7 +13,7 @@ Dump hết string về 1 file cho dễ thao tác:
 
 **$ strings mem.mem > strings.out**
 
-Tìm từ những dòng liên quan đến shh:
+Tìm từ những dòng liên quan đến ssh:
 
 **$ cat strings.out | grep ssh**
 
