@@ -1,1 +1,1 @@
-cat flag.txt >> index.html
+cat /src/flag.txt >> /src/index.html
