@@ -1,0 +1,10 @@
+<script>
+function isVaild(url){
+	return /https:\/\/.*.letspentest.org/.test(url);
+}
+var url= window.location.hash.substr(1);
+
+if(isVaild(url)){
+	window.location=url;
+}
+</script>
