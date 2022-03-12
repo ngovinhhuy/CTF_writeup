@@ -1,12 +1,11 @@
 /*
+  //code from Ghidra
   for (i = 0; i < len_input; i = i + 1) {
     x = check((int)input?[i]);
     if (x != *(long *)(&str1 + i * 8)) {
       puts("Incorrect!");
       exit(1);
     }
-*/
-/*
 long check(char c)
 
 {
