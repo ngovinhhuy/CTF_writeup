@@ -98,7 +98,7 @@ unsigned __int64 addMilk()
   return __readfsqword(0x28u) ^ v19;
 }
 ```
-Wtf! Calling strncat(part1, &pwd[i++], 1uLL) ?? 1st argument of strncat must be pointer, but remember that, a x64 pointer has 8 bytes long so no problem with char[8] part1 (It might be that IDA made a mistake by realizing pwn1 as char[8] rather than a pointer.)
+Wtf! Calling strncat(part1, &pwd[i++], 1uLL) ?? 1st argument of strncat must be a pointer, but remember that, a x64 pointer has 8 bytes long so no problem with char[8] part1 (It might be that IDA made a mistake by realizing pwn1 as char[8] rather than a pointer.)
 
 With pseudcode C, we can write a "reverse version" of this function.
 
