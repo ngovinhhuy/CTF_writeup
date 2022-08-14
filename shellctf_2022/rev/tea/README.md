@@ -40,7 +40,7 @@ int strainAndServe()
   return result;
 }
 ```
-The binary saves input in `pwn`, encrypts pwn with 3 functions and compare with ``"R;crc75ihl`cNYe`]m%50gYhugow~34i".``
+The binary saves input in `pwn`, encrypts `pwn` with 3 functions and compares with ``"R;crc75ihl`cNYe`]m%50gYhugow~34i".``
 
 Check addMilk() first
 
