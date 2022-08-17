@@ -31,3 +31,6 @@ recoverjpeg
 ghidra
 gdb
 edb-debugger
+#smb:
+smbmap
+smbclient
