@@ -74,7 +74,7 @@ Giờ có được canary rồi, ghi đè saved rip để đi đến đâu? Bina
 
 Nhưng giờ chỉ còn thực thi thêm một lần read. Không thể thay đổi canary nhưng canary lại chứa null byte -> không thể leak địa chỉ trả về.
 
-Giờ chỉ còn cách quay lại gọi hàm vuln một lần nữa. Mình cho trả về lúc call hàm vuln trong hàm main thêm một lần nữa vì đơn giản chỉ cần thay đổi 1 byte ( `9d` -> `dd` ).
+Giờ chỉ còn cách quay lại gọi hàm vuln một lần nữa. Mình cho trả về lúc call hàm vuln trong hàm main thêm một lần nữa vì đơn giản chỉ cần thay đổi 1 byte ( `e2` -> `dd` ).
 
 <figure><img src="../../.gitbook/assets/2022-08-30-222106_660x332_scrot.png" alt=""><figcaption></figcaption></figure>
 
