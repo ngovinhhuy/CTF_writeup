@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Junior Hacking TalentsJ](README.md)
+* [Junior Hacking Talents](README.md)
   * [Forensics](junior-hacking-talentsj/forensics/README.md)
     * [Junior Hacking Talents Writeup](<Junior Hacking TalentsJ/Forensics/Quaynguocthoigian/README.md>)
 * [shellctf\_2022](shellctf\_2022/README.md)
