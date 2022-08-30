@@ -1,2 +1,6 @@
-# There are my 'stupid' write-ups
+---
+layout: editorial
+---
+
+# Những write up vớ vẩn của tui.
 
