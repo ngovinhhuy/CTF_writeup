@@ -1,18 +1,20 @@
-# SHELL CTF 2022
+# tea
 
-# TEA
+## SHELL CTF 2022
+
+## TEA
 
 Challenge
 
-![Challenge](https://raw.githubusercontent.com/ngovinhhuy/CTF_bullshit_stuffs/main/shellctf_2022/rev/tea/image/Screenshot_2022-08-15_01-04-51.png)
+![Challenge](https://raw.githubusercontent.com/ngovinhhuy/CTF\_bullshit\_stuffs/main/shellctf\_2022/rev/tea/image/Screenshot\_2022-08-15\_01-04-51.png)
 
 Check binary
 
-![Binary](https://github.com/ngovinhhuy/CTF_bullshit_stuffs/blob/main/shellctf_2022/rev/tea/image/Screenshot_2022-08-15_01-05-55.png?raw=true)
+![Binary](https://github.com/ngovinhhuy/CTF\_bullshit\_stuffs/blob/main/shellctf\_2022/rev/tea/image/Screenshot\_2022-08-15\_01-05-55.png?raw=true)
 
 Decompiling with IDA
 
-```C
+```c
 int __cdecl main(int argc, const char **argv, const char **envp)
 {
   boilWater(argc, argv, envp);
@@ -40,11 +42,12 @@ int strainAndServe()
   return result;
 }
 ```
+
 The binary saves input in `pwn`, encrypts `pwn` with 3 functions and compares with ``"R;crc75ihl`cNYe`]m%50gYhugow~34i".``
 
 Check addMilk() first
 
-```C
+```c
 unsigned __int64 addMilk()
 {
   size_t v0; // rax
@@ -98,11 +101,12 @@ unsigned __int64 addMilk()
   return __readfsqword(0x28u) ^ v19;
 }
 ```
-Wtf! Calling strncat(part1, &pwd[i++], 1uLL) ?? 1st argument of strncat must be a pointer, but remember that, a x64 pointer has 8 bytes long so no problem with char[8] part1 (It might be that IDA made a mistake by realizing part1 as char[8] rather than a pointer.)
+
+Wtf! Calling strncat(part1, \&pwd\[i++], 1uLL) ?? 1st argument of strncat must be a pointer, but remember that, a x64 pointer has 8 bytes long so no problem with char\[8] part1 (It might be that IDA made a mistake by realizing part1 as char\[8] rather than a pointer.)
 
 With pseudcode C, we can write a "reverse version" of this function.
 
-```py
+```python
 def milk_rev():
     possi_flags=[]
     part3_part1="R;crc75ihl`cNYe`]m%" #part3 starts with 'R'
@@ -113,10 +117,12 @@ def milk_rev():
         possi_flags+=[part1+part2+part3]
     return possi_flags
 ```
+
 Because we don't know how long part1 and part3 are, there are many of their cases.
 
 Check addTea function.
-```C
+
+```c
 unsigned __int64 addTea()
 {
   ....
@@ -139,9 +145,10 @@ unsigned __int64 addTea()
   strcpy(pwd, s1);                              // pwd=s1
 }
 ```
+
 Just a simple alogrithm, we can easly write a "reverse version".
 
-```py
+```python
 def tea_rev(possi_flags):
     new_possi_flags=[]
     for i in range(len(possi_flags)):
@@ -156,8 +163,10 @@ def tea_rev(possi_flags):
         new_possi_flags+=[''.join(flag)]
     return new_possi_flags
 ```
+
 Checkk addSugar function.
-```C
+
+```c
 unsigned __int64 addSugar()
 {
   ...
@@ -173,11 +182,12 @@ unsigned __int64 addSugar()
   return __readfsqword(0x28u) ^ v8;
 }
 ```
+
 This function puts chars that have odd indexes into a string and the others into another string.
 
 Write a "reverse version"
 
-```py
+```python
 def sugar_rev(possi_flags):
     new_possi_flags=[]
     for i in range(len(possi_flags)):
@@ -196,8 +206,10 @@ def sugar_rev(possi_flags):
         new_possi_flags+=[new_flag]
     return new_possi_flags
 ```
+
 Final script
-```py
+
+```python
 def debug_flags(possi_flags):
     for flag in possi_flags:
         print(flag)
@@ -243,6 +255,7 @@ def sugar_rev(possi_flags):
 for flag in sugar_rev(tea_rev(milk_rev())):
     print(flag)
 ```
-![run](https://github.com/ngovinhhuy/CTF_bullshit_stuffs/blob/main/shellctf_2022/rev/tea/image/Screenshot_2022-08-15_01-50-24.png?raw=true)
+
+![run](https://github.com/ngovinhhuy/CTF\_bullshit\_stuffs/blob/main/shellctf\_2022/rev/tea/image/Screenshot\_2022-08-15\_01-50-24.png?raw=true)
 
 `Flag: shellctf{T0_1nfiNi7y_4nD_B3y0nd}`
