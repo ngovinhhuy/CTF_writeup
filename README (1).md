@@ -3,5 +3,5 @@ cover: .gitbook/assets/pixel-jeff-matrix-s.gif
 coverY: 0
 ---
 
-# 🚩 Some 'stupid' write-ups.
+# 🏴☠ Some 'stupid' write-ups.
 
