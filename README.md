@@ -1,6 +1,7 @@
 ---
+coverY: 0
 layout: editorial
 ---
 
-# Những write up vớ vẩn của tui.
+# 🚩 Some 'stupid' write-ups.
 
