@@ -1,9 +1,9 @@
 # Table of contents
 
-* [😁 About](README.md)
+* [🧑💻 About](README.md)
   * [Github](https://github.com/robbert1978)
   * [Twitter](https://twitter.com/eohuy\_511)
-* [🚩 Some 'stupid' write-ups.](<README (1).md>)
+* [🏴☠ Some 'stupid' write-ups.](<README (1).md>)
   * [shellctf\_2022](there-are-my-stupid-write-ups/shellctf\_2022/README.md)
     * [rev](there-are-my-stupid-write-ups/shellctf\_2022/rev/README.md)
       * [tea](there-are-my-stupid-write-ups/shellctf\_2022/rev/tea.md)
