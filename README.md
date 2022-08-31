@@ -1,7 +1,7 @@
 ---
 coverY: 0
-layout: editorial
 ---
 
-# 🚩 Some 'stupid' write-ups.
+# About
 
+Just a boy likes playing ctf =]].
