@@ -1,7 +1,7 @@
 ---
 description: Robbert1978#4160
-cover: .gitbook/assets/pixel-jeff-matrix-s.gif
-coverY: -37.6747608535688
+cover: .gitbook/assets/7f91c52293448109ebeb4d6b3734cd0a.png
+coverY: 136.4403387220939
 ---
 
 # 🧑💻 About
