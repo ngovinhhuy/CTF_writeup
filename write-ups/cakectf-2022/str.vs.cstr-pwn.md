@@ -75,9 +75,9 @@ Bài này khá dễ =]].  Nhìn qua ta thấy chỉ cần ghi đè \_str thành 
 
 <figure><img src="../../.gitbook/assets/2022-09-06-211409_402x203_scrot (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/2022-09-06-211449_1870x944_scrot.png" alt=""><figcaption><p>ở đây mình ghi đè thành 0x4242424242424242 nên bị seg fault.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2022-09-06-211449_1870x944_scrot (1).png" alt=""><figcaption><p>ở đây mình ghi đè thành 0x4242424242424242 nên bị seg fault.</p></figcaption></figure>
 
-Nhưng khoan, rút cuộc C++ string hoạt động như thế nào ? sao lại chỉ cần ghi đè mỗi 8 byte đầu là được :thinking:
+Nhưng khoan, rút cuộc C++ string hoạt động như thế nào ? Sao lại chỉ cần ghi đè mỗi 8 byte đầu là được :thinking:
 
 Sau nhiều lần search google và debug mình thấy...
 
