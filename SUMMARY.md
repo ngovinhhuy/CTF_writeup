@@ -14,3 +14,4 @@
     * [Warmup2 (Pwn)](write-ups/maplectf-2022/warmup2-pwn.md)
   * [CakeCTF 2022](write-ups/cakectf-2022/README.md)
     * [🎂frozen cake (Crypto)](write-ups/cakectf-2022/frozen-cake-crypto.md)
+    * [🎂str.vs.cstr (Pwn)](write-ups/cakectf-2022/str.vs.cstr-pwn.md)
