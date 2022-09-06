@@ -50,10 +50,11 @@ m^{n}\equiv c (mod\ n)
 m^{p}m^{p}=m^{n}m^{\varphi(n)}m
 \\
 \Rightarrow ab\equiv mc (mod\ n)
-\\d: cd\equiv 1(mod\ n)
 \\
 \Rightarrow abd \equiv m(mod\ n)\ \\(cd\equiv 1(mod\ n))
 $$
+
+​
 
 {% code title="solve.py" %}
 ```python
