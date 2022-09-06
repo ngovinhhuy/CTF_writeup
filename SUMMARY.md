@@ -12,3 +12,5 @@
       * [Junior Hacking Talents Writeup](write-ups/junior-hacking-talents/forensics/quaynguocthoigian.md)
   * [MapleCTF 2022](write-ups/maplectf-2022/README.md)
     * [Warmup2 (Pwn)](write-ups/maplectf-2022/warmup2-pwn.md)
+  * [CakeCTF 2022](write-ups/cakectf-2022/README.md)
+    * [🎂frozen cake (Crypto)](write-ups/cakectf-2022/frozen-cake-crypto.md)
