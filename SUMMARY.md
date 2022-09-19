@@ -3,7 +3,7 @@
 * [🧑💻 About](README.md)
   * [Github](https://github.com/robbert1978)
   * [Twitter](https://twitter.com/eohuy\_511)
-* [🏴☠ Some 'stupid' write-ups](write-ups/README.md)
+* [🏴☠ Some write-ups](write-ups/README.md)
   * [shellctf\_2022](write-ups/shellctf\_2022/README.md)
     * [rev](write-ups/shellctf\_2022/rev/README.md)
       * [tea](write-ups/shellctf\_2022/rev/tea.md)
