@@ -18,7 +18,7 @@ return 0;
 ```
 {% endcode %}
 
-Nhìn đề bài là phải leak được libc ( don't care about the title :))) ). Mình sẽ cố gắng gọi  `write(1,write@got,8)`
+Nhìn đề bài cho libc là biết phải leak được libc ( don't care about the title :))) ). Mình sẽ cố gắng gọi  `write(1,write@got,8)`
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
