@@ -53,4 +53,4 @@ for c in range(ord('A'),ord('z')+1):
 
 Mình thấy password\[0]='H' là hợp lý nhất, password giải ra đủ 37 kí tự và có nghĩa.
 
-Flag: `W1{Hey,Im_h3r3,..but..H0w_c4n_y0u_g3t_1t?`
+Flag: `W1{Hey,Im_h3r3,..but..H0w_c4n_y0u_g3t_1t?}`
