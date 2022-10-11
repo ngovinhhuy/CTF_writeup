@@ -2,7 +2,7 @@
 
 Bài này đưa sẵn source code, libc
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code title="not_ret2libc.c" lineNumbers="true" %}
 ```c
@@ -20,7 +20,7 @@ return 0;
 
 Nhìn đề bài là phải leak được libc ( don't care about the title :))) ). Mình sẽ cố gắng gọi  `write(1,write@got,8)`
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Bài này không có `pop rdx` gadget nên mình nghĩ tới cách ret2csu.
 
@@ -168,7 +168,7 @@ sleep(1)
 p.interactive()
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Flag: `W1{t0o_m4nY_g4dg3t_f0r_Xplo1t}`
 
