@@ -18,3 +18,4 @@
   * [Wannagame Freshman 2022](write-ups/wannagame-freshman-2022/README.md)
     * [1337 (Pwn)](write-ups/wannagame-freshman-2022/1337-pwn.md)
     * [Pokemon Game (Pwn)](write-ups/wannagame-freshman-2022/pokemon-game-pwn.md)
+    * [what\_is\_your\_dream (Pwn)](write-ups/wannagame-freshman-2022/what\_is\_your\_dream-pwn.md)
