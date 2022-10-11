@@ -50,6 +50,8 @@ Qua quá trình debug mình thấy:
 
 \+ saved rip ở index 19 -> mình sẽ ghi đè thành địa chỉ của `ret` gadget ( leak ở line 12) -> rồi ghi đè địa chỉ hàm win ở index 20 ( bài này `no-pie` nên leak win không cần thiết lắm :))) ).
 
+\+ Nhập `-` hay `+` thì hàm scanf sẽ không thay đổi giá trị của biến =)).
+
 Script giải
 
 ```python
