@@ -65,7 +65,7 @@ Kiểm tra hàm `__libc_csu_init`
 
 Yeah, tại `__libc_csu_init+64`  có gadget `mov rdx,r14` giúp ta ghi thanh rdx.
 
-Đầu tiên mình sẽ sử dụng các gadget bắt đầu ở `__libc_csu_init+f6` để ghi các giá trị mong muốn vào cách thanh ghi.
+Đầu tiên mình sẽ sử dụng các gadget bắt đầu ở `__libc_csu_init+90` để ghi các giá trị mong muốn vào cách thanh ghi.
 
 `mov rdx,r14` -> ghi đè r14=8
 
