@@ -15,4 +15,5 @@
   * [CakeCTF 2022](write-ups/cakectf-2022/README.md)
     * [🎂frozen cake (Crypto)](write-ups/cakectf-2022/frozen-cake-crypto.md)
     * [🎂str.vs.cstr (Pwn)](write-ups/cakectf-2022/str.vs.cstr-pwn.md)
-  * [Wannagame Freshman 2022](write-ups/wannagame-freshman-2022.md)
+  * [Wannagame Freshman 2022](write-ups/wannagame-freshman-2022/README.md)
+    * [1337 (Pwn)](write-ups/wannagame-freshman-2022/1337-pwn.md)
