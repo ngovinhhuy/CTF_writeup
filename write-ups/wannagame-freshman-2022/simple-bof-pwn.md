@@ -40,7 +40,7 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 ```
 {% endcode %}
 
-Bài này không kiểm tra size ở line 15, nếu ta nhập số >16 -> ghi đè ra ngoài biến array v7 -> overflow
+Bài này không kiểm tra size ở line 15, nếu ta nhập v5 >16 -> ghi đè ra ngoài biến array v7 -> overflow
 
 Qua quá trình debug mình thấy:
 
