@@ -85,7 +85,7 @@ p.interactive()
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Flag: `W1{sUp3r_e4sY_b0f_74f2f624d3c92c1d739b6b0b238c0321}`
 
