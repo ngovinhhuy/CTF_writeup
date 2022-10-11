@@ -1,6 +1,6 @@
 # 🎂str.vs.cstr (Pwn)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Cheksec </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Cheksec </p></figcaption></figure>
 
 Bài này đã đưa sẵn mã nguồn để ta phân tích
 

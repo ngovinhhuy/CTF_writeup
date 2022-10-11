@@ -19,3 +19,4 @@
     * [1337 (Pwn)](write-ups/wannagame-freshman-2022/1337-pwn.md)
     * [Pokemon Game (Pwn)](write-ups/wannagame-freshman-2022/pokemon-game-pwn.md)
     * [what\_is\_your\_dream (Pwn)](write-ups/wannagame-freshman-2022/what\_is\_your\_dream-pwn.md)
+    * [Simple bof (pwn)](write-ups/wannagame-freshman-2022/simple-bof-pwn.md)
