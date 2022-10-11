@@ -2,7 +2,7 @@
 
 Check binary
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Decompile bằng IDA
 
@@ -40,7 +40,7 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 ```
 {% endcode %}
 
-Bài này ko kiểm tra size ở line 15, nếu ta nhập số >16 -> ghi đè ra ngoài biến array v7 -> overflow
+Bài này không kiểm tra size ở line 15, nếu ta nhập số >16 -> ghi đè ra ngoài biến array v7 -> overflow
 
 Qua quá trình debug mình thấy:
 
@@ -85,7 +85,7 @@ p.interactive()
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Flag: `W1{sUp3r_e4sY_b0f_74f2f624d3c92c1d739b6b0b238c0321}`
 
