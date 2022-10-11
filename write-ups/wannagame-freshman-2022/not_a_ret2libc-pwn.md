@@ -170,7 +170,7 @@ p.interactive()
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Flag: \`\`\`
+Flag: `W1{t0o_m4nY_g4dg3t_f0r_Xplo1t}`
 
 
 
