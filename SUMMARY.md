@@ -22,3 +22,4 @@
     * [Simple bof (pwn)](write-ups/wannagame-freshman-2022/simple-bof-pwn.md)
     * [not\_a\_ret2libc (Pwn)](write-ups/wannagame-freshman-2022/not\_a\_ret2libc-pwn.md)
     * [Umaru loves PHP (Web)](write-ups/wannagame-freshman-2022/umaru-loves-php-web.md)
+    * [Password Checker (Rev)](write-ups/wannagame-freshman-2022/password-checker-rev.md)
