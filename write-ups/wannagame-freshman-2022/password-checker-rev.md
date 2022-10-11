@@ -2,6 +2,8 @@
 
 Bài này đưa source code Java để rev. ( Đọc code java mà muốn thở oxi :(( ).
 
+![](<../../.gitbook/assets/image (1).png>)
+
 {% file src="../../.gitbook/assets/PasswordChecker.java" %}
 
 Kiểm tra hàm checkPassword
