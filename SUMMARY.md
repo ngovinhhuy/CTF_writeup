@@ -16,7 +16,7 @@
     * [🎂frozen cake (Crypto)](write-ups/cakectf-2022/frozen-cake-crypto.md)
     * [🎂str.vs.cstr (Pwn)](write-ups/cakectf-2022/str.vs.cstr-pwn.md)
   * [Wannagame Freshman 2022](write-ups/wannagame-freshman-2022/README.md)
-    * [13+37 (Pwn)](write-ups/wannagame-freshman-2022/13+37-pwn.md)
+    * [13+37 (Pwn)](write-ups/wannagame-freshman-2022/1337-pwn.md)
     * [Pokemon Game (Pwn)](write-ups/wannagame-freshman-2022/pokemon-game-pwn.md)
     * [what\_is\_your\_dream (Pwn)](write-ups/wannagame-freshman-2022/what\_is\_your\_dream-pwn.md)
     * [Simple bof (pwn)](write-ups/wannagame-freshman-2022/simple-bof-pwn.md)
