@@ -23,3 +23,4 @@
     * [not\_a\_ret2libc (Pwn)](write-ups/wannagame-freshman-2022/not\_a\_ret2libc-pwn.md)
     * [Umaru loves PHP (Web)](write-ups/wannagame-freshman-2022/umaru-loves-php-web.md)
     * [Password Checker (Rev)](write-ups/wannagame-freshman-2022/password-checker-rev.md)
+    * [1st grade rev (Rev)](write-ups/wannagame-freshman-2022/1st-grade-rev-rev.md)
