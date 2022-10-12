@@ -94,7 +94,7 @@ int main(){
 ```
 {% endcode %}
 
-Bài này dính lỗi ở line 51, dùng hàm `strstr` thay vì hàm `strcmp`. Hàm strstr chỉ kiểm tra `pokemonss[computer]` có ở trong `choice` hay không.
+Bài này dính lỗi ở line 51, dùng hàm `strstr` thay vì hàm `strcmp`. Hàm `strstr` chỉ kiểm tra `pokemonss[computer]` có ở trong `choice` hay không.
 
 Chỉ cần ghi biến choice chứa hết các string của `pokemonss.`
 
