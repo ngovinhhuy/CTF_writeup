@@ -103,7 +103,7 @@ Mình kiểm tra thì file users.db có thể truy cập được
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Minh lưu database và source code về để debug local
+Mình lưu database và source code về để debug local
 
 Mình thêm code vào để in hash md5 của `admin` ra và chạy while loop đến khi nào generate password có hash md5 đúng bằng của `admin`
 
